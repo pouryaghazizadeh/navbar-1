@@ -1,0 +1,12 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.head-navba{
+    height:200px;
+    width: auto;
+    background-color: blueviolet;
+    display: flex;
+    align-items:center;
+    
+}

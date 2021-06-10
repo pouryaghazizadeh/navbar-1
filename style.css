@@ -2,11 +2,30 @@
     padding:0px;
     margin:0px;
 }
-.head-navba{
-    height:200px;
-    width: auto;
+.head-navbar{
+    height:50px;
+    width:100vw;
+    padding:0px;
+    margin: 0px;
     background-color: blueviolet;
     display: flex;
-    align-items:center;
-    
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center
+}
+.items{
+    margin: 0px;
+    background-color:white;
+    list-style: none;
+    justify-content: center;
+    width:50vw;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
 }

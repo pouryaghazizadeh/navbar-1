@@ -68,6 +68,7 @@ a:hover{
         justify-content: center;
         background-color:  blueviolet;
         transform: translateX(100%);
+        transition:transform 0.5s ease-in;
     }
     .nav-link li{
         opacity:0px
@@ -77,6 +78,7 @@ a:hover{
         display:flex;
         align-items: center;
         margin-right:19px;
+        cursor: pointer;
     }
 }
 @media screen and (max-width:1024px){
